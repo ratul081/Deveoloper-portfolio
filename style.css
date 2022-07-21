@@ -1,5 +1,5 @@
 body {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
 
@@ -7,23 +7,28 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orangered;
 }
 
-section {
+.flexable-containt {
     display: flex;
     margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
+    float: left;
+    margin-left: 5%;
     padding-left: 5%;
 }
 
 .half-width img {
-    width: 40%;
-    height: auto;
+    width: 70%;
 }
 
 .link-button {
@@ -39,14 +44,36 @@ section {
     background-repeat: no-repeat;
 }
 
-.Amar {
-    width: 100%;
-    text-align: justify;
-    text-justify: inter-word;
-
-}
-.DreamBig{
+.DreamBig {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Expariences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.expariance-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+}
+
+#full-stack-devoloper {
+    border-left: 7px solid tomato;
+}
+
+#Baby-web-devolopar {
+    border-left: 7px solid cyan;
+}
+
+footer p {
+    text-align: center;
+
 }

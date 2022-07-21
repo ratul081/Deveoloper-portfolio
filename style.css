@@ -27,8 +27,13 @@ h2 {
     padding-left: 5%;
 }
 
-.half-width img {
-    width: 70%;
+
+#frist-pic {
+    width: 50%;
+}
+
+#second-pic {
+    width: 50%;
 }
 
 .link-button {
@@ -48,6 +53,10 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.DreamBig p {
+    width: 80%;
 }
 
 .Expariences {
